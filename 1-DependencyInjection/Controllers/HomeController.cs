@@ -20,6 +20,7 @@ namespace _1_DependencyInjection.Controllers
             _singletonDateService = singletonDateService;  
             _scopedDateService = scopedDateService;
             _transientDateService = transientDateService;
+            //merhaba
         }
 
         public IActionResult Index([FromServices]ISingletonDateService singletonDateService2)//Singleton olduğu için sadece bir kez çalıştığı için üstteki ile aynı olacak. Sayfa yenilense dahi aynı olacak
