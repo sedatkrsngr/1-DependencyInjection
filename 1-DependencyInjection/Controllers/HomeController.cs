@@ -17,7 +17,7 @@ namespace _1_DependencyInjection.Controllers
 
         public HomeController(ISingletonDateService singletonDateService, IScopedDateService scopedDateService, ITransientDateService transientDateService)
         {
-            _singletonDateService = singletonDateService;
+            _singletonDateService = singletonDateService;  
             _scopedDateService = scopedDateService;
             _transientDateService = transientDateService;
         }
